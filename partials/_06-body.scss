@@ -1,12 +1,63 @@
 .headerContainer {
    position: absolute;
-   top: 200px;
-   left: 100px;
+   top: 225px;
+   left: 115px;
    z-index: 10;
-   // width: 100%;
-   // border: 1px solid red;
-   // overflow: hidden;
-   svg {
-
-   }
 }
+
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+
+
+.building {
+   position: absolute;
+   bottom: 20px;
+   right: 15%;
+   width: 380px;
+   height: 740px;
+   overflow: hidden;
+   z-index: -10;
+   // border: 1px solid red;
+}
+
+#buildingSegment1 {
+   background: url(../../assets/building1.jpg);
+   background-position: -40px 30px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 580px;
+   width: 160px;
+   bottom: -0px;
+   right: 50px;
+   z-index: 20;
+}
+
+#buildingSegment2 {
+  background: url(../../assets/building2.jpg);
+  background-position: -23px 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+  width: 200px;
+  bottom: 30px;
+  right: 95px;
+  z-index: 10;
+}
+
+#buildingSegment3 {
+   background: url(../../assets/building3-1.jpg);
+   background-position: -25px 40px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 490px;
+   width: 156px;
+   bottom: 20px;
+   right: 182px;
+   z-index: 30;
+   // border: 1px solid red;
+}
+

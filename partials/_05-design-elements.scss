@@ -4,10 +4,14 @@
    height: 35px;
 }
 
+.bar2 {
+   width: 35px;
+}
+
 #horizontalLine {
    position: absolute;
    left: 0;
-   top: 40px;
+   top: 45px;
    width: 100%;
    height: .5px;
    background: $darkGrey;
@@ -15,18 +19,16 @@
 
 #barContainer {
    position: absolute;
-   top: 105px;
+   top: 85px;
    height: 105px; 
    min-width: 350px;
    width: 50%;
-   max-width: 600px;
-   // border: 1px solid red;
+   max-width: 650px;
 }
 
 #horizontalBar1 {
   left: 0;
   top: 0px;
-//   min-width: 400px;
   width: 100%;
   background: $darkGrey;
 }
@@ -34,21 +36,17 @@
 #horizontalBar2 {
   left: 0;
   top: 35px;
-//   min-width: 300px;
   width: 75%;
   max-width: 500px;
-//   width: 70%;
   background: $middleGrey;
 }
 
 #horizontalBar3 {
   left: 0;
   top: 70px;
-//   min-width: 150px;
   width: 50%;
   background: $lightGrey;
 }
-
 
 #verticalLine {
    position: absolute;
@@ -58,5 +56,57 @@
    width: .5px;
    background: rgb(159, 159, 159);
 }
+
+#detail{
+   display: block;
+   position: absolute;
+   bottom: 120px;
+   left: 0px;
+   transform: rotateZ(-90deg);
+   color: $darkGrey;
+   font-size: .8rem;
+   letter-spacing: 2px;
+}
+
+#vertBarContainer {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: flex-end;
+   justify-content: right;
+   // width: 300px;
+   height: 80%;
+   // border: 1px solid red;
+   #verticalBar1 {
+      height: 100%;
+      background: $darkGrey;
+   }
+   #verticalBar2 {
+      height: 80%;
+      background: $middleGrey;
+   }
+   #verticalBar3 {
+      height: 70%;
+      width: 55px;
+      background: $lightGrey;
+   }
+}
+
+#detail2 {
+   display: block;
+   position: absolute;
+   right: 80px;
+   bottom: 50px;
+   transform: rotate(90deg);
+   font-size: 4rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   color: rgb(75, 75, 75);
+   border: 1px solid red;
+}
+
+
 
 
