@@ -1,63 +1,61 @@
 .headerContainer {
-   position: absolute;
-   top: 225px;
-   left: 115px;
-   z-index: 10;
-}
-
-.bg {
-  background-repeat: no-repeat;
-  background-size: cover;
   position: absolute;
-}
-
-
-
-.building {
-   position: absolute;
-   bottom: 20px;
-   right: 15%;
-   width: 380px;
-   height: 740px;
-   overflow: hidden;
-   z-index: -10;
-   // border: 1px solid red;
-}
-
-#buildingSegment1 {
-   background: url(../../assets/building1.jpg);
-   background-position: -40px 30px;
-   background-size: cover;
-   background-repeat: no-repeat;
-   height: 580px;
-   width: 160px;
-   bottom: -0px;
-   right: 50px;
-   z-index: 20;
-}
-
-#buildingSegment2 {
-  background: url(../../assets/building2.jpg);
-  background-position: -23px 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 720px;
-  width: 200px;
-  bottom: 30px;
-  right: 95px;
+  top: 260px;
+  left: 150px;
   z-index: 10;
+  //   background: linear-gradient(to left, rgba(255, 255, 255, 0.489), rgb(255, 255, 255));
+  background-position: 0px -100px;
+  border-radius: 0 0 50px 0;
 }
 
-#buildingSegment3 {
-   background: url(../../assets/building3-1.jpg);
-   background-position: -25px 40px;
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 490px;
-   width: 156px;
-   bottom: 20px;
-   right: 182px;
-   z-index: 30;
-   // border: 1px solid red;
+@media only screen and (max-width: 1150px) {
+  .headerContainer {
+    top: 220px;
+    left: 110px;
+  }
 }
 
+@media only screen and (max-width: 900px) {
+  .headerContainer {
+    top: 180px;
+    #logo {
+      width: 330px;
+      height: 118px;
+    }
+    p {
+      font-size: 0.75rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .headerContainer {
+    top: 130px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .headerContainer {
+    left: 60px;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .headerContainer {
+    left: 5%;
+    #logo {
+      width: 310px;
+      height: 111px;
+    }
+    p {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .headerContainer #logo {
+    width: 290px;
+    height: 104px;
+  }
+}
