@@ -24,6 +24,7 @@
   height: 100vh;
   width: 0.5px;
   background: rgb(159, 159, 159);
+  transition: all, .35s;
 }
 
 #detail {
@@ -35,6 +36,7 @@
   color: $darkGrey;
   font-size: 0.8rem;
   letter-spacing: 2px;
+  transition: all, .35s;
 }
 
 #detail2 {
@@ -121,6 +123,7 @@
   height: 780px;
   overflow: hidden;
   z-index: -10;
+  transition: all, .35s;
   //   border: 1px solid red;
 }
 
@@ -211,14 +214,15 @@
     left: 43px;
   }
   #detail {
-    left: -42px;
+    left: -32px;
   }
 }
 
-@media only screen and (max-width: 444px) {
-  #detail,
+@media only screen and (max-width: 460px) {
+//   #detail,
   #verticalLine {
-    display: none;
+
+   //  z-index: 0;
   }
   .building {
     right: -25%;
@@ -233,8 +237,8 @@
   }
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 380px) {
   .building {
-    right: -45%;
+    right: -40%;
   }
 }

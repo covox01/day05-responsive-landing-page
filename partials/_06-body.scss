@@ -6,6 +6,7 @@
   //   background: linear-gradient(to left, rgba(255, 255, 255, 0.489), rgb(255, 255, 255));
   background-position: 0px -100px;
   border-radius: 0 0 50px 0;
+  transition: all .35s;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -40,9 +41,10 @@
   }
 }
 
-@media only screen and (max-width: 444px) {
+@media only screen and (max-width: 460px) {
   .headerContainer {
-    left: 5%;
+     top: 73px;
+    left: 7%;
     #logo {
       width: 310px;
       height: 111px;
@@ -53,7 +55,7 @@
   }
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 380px) {
   .headerContainer #logo {
     width: 290px;
     height: 104px;
