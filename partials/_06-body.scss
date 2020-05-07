@@ -6,7 +6,7 @@
   //   background: linear-gradient(to left, rgba(255, 255, 255, 0.489), rgb(255, 255, 255));
   background-position: 0px -100px;
   border-radius: 0 0 50px 0;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -35,6 +35,12 @@
   }
 }
 
+@media only screen and (max-width: 680px) {
+   #tagline {
+      background: white;
+   }
+}
+
 @media only screen and (max-width: 600px) {
   .headerContainer {
     left: 60px;
@@ -43,7 +49,7 @@
 
 @media only screen and (max-width: 460px) {
   .headerContainer {
-     top: 73px;
+    top: 110px;
     left: 7%;
     #logo {
       width: 310px;
@@ -59,5 +65,12 @@
   .headerContainer #logo {
     width: 290px;
     height: 104px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .headerContainer #logo {
+    width: 270px;
+    height: 90px;
   }
 }
