@@ -3,13 +3,11 @@
    right: 0;
    top: 0px;
    z-index: 10;
-   // background: white;
    ul {
       width: 600px;
       height: 45px;
       display: flex;
       justify-content: space-around;
-      //  align-items: center;
    }
 }
 
@@ -71,15 +69,15 @@
          flex-flow: column;
       }
    }
-    .nav ul li {
+   .nav ul li {
       z-index: 10;
    }
-   .nav ul li  a{
+   .nav ul li a {
       color: #a1a0a0;
-      transition: background-color, .35s;
+      transition: background-color, 0.35s;
    }
    .nav ul li a:hover {
-      background: #303030
+      background: #303030;
    }
    #navBar {
       background-color: #464646;

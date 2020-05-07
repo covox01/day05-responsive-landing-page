@@ -305,8 +305,8 @@ a {
   }
   .nav ul li a {
     color: #a1a0a0;
-    -webkit-transition: background-color, .35s;
-    transition: background-color, .35s;
+    -webkit-transition: background-color, 0.35s;
+    transition: background-color, 0.35s;
   }
   .nav ul li a:hover {
     background: #303030;
